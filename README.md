@@ -2,7 +2,7 @@
 
 # WhatsComingUp
 
-Webbapplikation kodad mestadels live under min skolas "Öppet Hus". Användare kan skapa ett konto och fylla i sin klass i skolan och länka med sitt konto i Instructure Canvas för att få en rik dagsvy över vad som behövs göras i skolan. 
+Webbapplikation kodad live under min skolas "Öppet Hus" (förutom inloggningskoden då jag ville hålla streamen fullt relaterad till själva konceptet). Användare kan skapa ett konto och fylla i sin klass i skolan och länka med sitt konto i Instructure Canvas för att få en rik dagsvy över vad som behövs göras i skolan. 
 
 
 ### Vänligen notera
