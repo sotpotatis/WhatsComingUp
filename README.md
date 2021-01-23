@@ -4,6 +4,27 @@
 
 Webbapplikation kodad live under min skolas "Öppet Hus" (förutom inloggningskoden då jag ville hålla streamen fullt relaterad till själva konceptet). Användare kan skapa ett konto och fylla i sin klass i skolan och länka med sitt konto i Instructure Canvas för att få en rik dagsvy över vad som behövs göras i skolan. 
 
+### Är applikationen klar?
+
+**Nej,** den är inte klar. Men jag kom långt under Öppet Hus. Det är bara några smågrejer som ska sättas på plats. Det finns säkert buggar - jag skrev appen en lördag då den inte finns så mycket i schemat. *Jag kommer uppdatera appen dagligen och uppdatera repositoryt så fort jag har ändrat något.*
+
+##### Att göra
+
+(Listan är inte komplett)
+
+* Fixa formattering av schema
+
+* Lägg till så elever kan lägga in sina egna publika Google-kalendrar
+
+* Fixa färger och formattering till block
+
+* Lägg in ikoner
+
+* Byt från Tailwind via CDN till en egen build för att dra ner storleken och öka flexibiliteten.
+
+* Städa upp kod
+
+* Lägg in veckovy (eventuellt)
 
 ### Vänligen notera
 
