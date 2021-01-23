@@ -24,6 +24,8 @@ Webbapplikation kodad live under min skolas "Öppet Hus" (förutom inloggningsko
 
 * Städa upp kod
 
+* Fixa SSIS-Schedule-Python bibliotek (använder halv hotfix just nu)
+
 * Lägg in veckovy (eventuellt)
 
 ### Vänligen notera
