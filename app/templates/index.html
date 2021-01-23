@@ -2,13 +2,16 @@
 <html lang="sv">
 <head>
     <meta charset="UTF-8">
-    <!--- TODO: Glöm inte responsiva metataggen (på alla sidor) --->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <title>Start | WhatsComingUp</title>
 </head>
-<body>
-<h1>Startsida</h1>
-<p>Välkommen.</p>
-<button onclick="location.href='/signup'">Registrera dig</button>
-<button onclick="location.href='/login'">Logga in</button>
+<body class="bg-gray-800 p-5 text-white text-center">
+<h1 class="text-5xl font-bold pb-3">WhatsComingUp?</h1>
+<p class="text-xl">Samla allt som händer för dig i skolan - på en och samma sida.</p>
+<p>Canvas - Schema - BBB-länkar - Lunch</p>
+<button class="bg-indigo-500 p-2 m-2 rounded" onclick="location.href='/signup'">Registrera dig</button>
+<button class="bg-indigo-700 p-2 m-2 rounded" onclick="location.href='/login'">Logga in</button>
+<p class="text-sm">20alse/sotpotatis | 2021</p>
 </body>
 </html>

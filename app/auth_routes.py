@@ -16,7 +16,7 @@ def signup():
     på tjänsten."""
     logging.info("Tog emot en förfrågan att registrera en användare!")
     logging.info("Hämtar detaljer från förfrågning...")
-    username = request.form["username"]
+    username = request.form["username"].lower()
     password = request.form["password"]
     #Kolla att kraven följs
     if not (len(username) < 25 and len(username) > 2):
@@ -41,7 +41,7 @@ def login():
     """Funktion för att logga in på tjänsten."""
     logging.info("Tog emot en förfrågan att logga in en användare!")
     logging.info("Hämtar detaljer från förfrågning...")
-    username = request.form["username"]
+    username = request.form["username"].lower()
     password = request.form["password"]
     remember = False #TODO: Lägg till val för att komma ihåg användaren om jag har tid
     found_user = User.query.filter_by(username=username).first()

@@ -5,6 +5,8 @@ from initialize import create_app, db
 
 #Logging-konfiguration
 logging.basicConfig(level=logging.DEBUG)
+logging.getLogger("urllib3").setLevel(logging.WARNING)
+
 
 #App-konfiguration
 run_debugged = True #Om appen ska köras i debugg-läge (Flask) eller inte.

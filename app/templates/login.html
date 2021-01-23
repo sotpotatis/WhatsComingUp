@@ -2,17 +2,21 @@
 <html lang="sv">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <title>Logga in</title>
 </head>
-<body>
-<h1>Logga in</h1>
-<p>Fyll i formuläret nedan för att logga in.</p>
+<body class="bg-gray-800 p-5 text-white text-center">
+<h1 class="text-3xl font-bold m-3">Logga in</h1>
+<p class="text-xl m-3">Fyll i formuläret nedan för att logga in.</p>
 <form method="post" id="login-form" action="/login">
     <label for="username">Användarnamn</label>
-    <input name="username" id="username" placeholder="Användarnamn">
+    <input name="username" id="username" placeholder="Användarnamn" class="rounded border m-3 p-1 focus:border-blue-500">
+    <br>
     <label for="password">Lösenord</label>
-    <input name="password" id="password" type="password" placeholder="Lösenord">
-    <button type="submit">Skicka in</button>
+    <input name="password" id="password" type="password" class="rounded border m-3 p-1 focus:border-blue-500" placeholder="Lösenord">
+    <br>
+    <button class="bg-indigo-500 p-2 m-2 rounded" type="submit">Skicka in</button>
 </form>
 </body>
 </html>
