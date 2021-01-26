@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Inställningar</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+</head>
+<body class="bg-gray-800 p-5 text-white text-center">
+<h1 class="text-3xl font-bold m-3">Inställningar</h1>
+<p class="text-xl">Inställningar för din användare.</p>
+<h3 class="text-xl font-bold">Canvas API-token</h3>
+<form action="/user/update" method="POST">
+    <input type="password" name="canvas-token" value="{{ canvas_token_prefill }}" class="rounded border m-3 p-1 focus:border-blue-500">
+    <br>
+    <button type="submit" class="bg-indigo-500 p-2 m-2 rounded">Uppdatera</button>
+</form>
+<h3 class="text-xl font-bold">Klass</h3>
+<form action="/user/update" method="POST">
+    {% if class_prefill != None %}
+    <p>Aktuell vald klass: {{ class_prefill }}</p>
+    {% endif %}
+    <select name="class" class="rounded border m-3 p-1 text-black focus:border-blue-500">
+    <option value="te18a">Te18A</option>
+    <option value="te18b">Te18B</option>
+    <option value="te18c">Te18C</option>
+    <option value="te18d">Te18D</option>
+    <option value="te19a">Te19A</option>
+    <option value="te19b">Te19B</option>
+    <option value="te19c">Te19C</option>
+    <option value="te19d">Te19D</option>
+    <option value="te20a">Te20A</option>
+    <option value="te20b">Te20B</option>
+    <option value="te20c">Te20C</option>
+    <option value="te20d">Te20D</option>
+    </select>
+    <br>
+    <button type="submit" class="bg-indigo-500 p-2 m-2 rounded">Uppdatera</button>
+</form>
+</body>
+</html>
